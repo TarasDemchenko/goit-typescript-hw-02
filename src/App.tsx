@@ -18,7 +18,7 @@ const App:FC = () => {
   const [images, setImages] = useState<Image[]>([]);
   const [error, setError] = useState<boolean>(false);
 
-  const [page, setPage] = useState<null|number>(null);
+  const [page, setPage] = useState<number>(0);
   const [modalIsOpen, setIsOpen] = useState<boolean>(false);
   const [selectedImage, setSelectedImage] = useState<string|null>(null);
 
