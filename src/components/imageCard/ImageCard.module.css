@@ -1,0 +1,10 @@
+.img {
+  width: 390px;
+  height: 250px;
+  border-radius: 10px;
+
+  &:hover {
+    box-shadow: 5px 5px 5px rgb(120, 118, 233);
+    transform: scale(1.02);
+  }
+}
